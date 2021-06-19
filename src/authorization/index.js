@@ -1,1 +1,3 @@
 export { CreateAccountPage } from './CreateAccountPage';
+export { SignInPage } from './SignInPage';
+

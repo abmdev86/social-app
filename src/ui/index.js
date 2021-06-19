@@ -5,3 +5,5 @@ export { ErrorMessage } from './ErrorMessage';
 export { SmallHeader } from './SmallHeader';
 export { TextInput } from './TextInput';
 export { TextArea } from './TextArea';
+export { Header } from './Header';
+export { Modal } from './Modal';

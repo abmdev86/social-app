@@ -6,7 +6,7 @@ import {
 
 } from 'react-router-dom';
 import {
-  CreateAccountPage,
+  CreateAccountPage, SignInPage
 } from '../authorization';
 import './App.css';
 
@@ -16,7 +16,7 @@ export function App() {
     <Router>
       <Switch>
         <Route path='/sign-in'>
-
+          <SignInPage />
         </Route>
         <Route path='/create-account'>
           <CreateAccountPage />
