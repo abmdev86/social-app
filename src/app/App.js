@@ -6,7 +6,7 @@ import {
 
 } from 'react-router-dom';
 import {
-  CreateAccountPage, SignInPage
+  CreateAccountPage, SignInPage, ProtectedRoute
 } from '../authorization';
 import './App.css';
 
@@ -21,6 +21,9 @@ export function App() {
         <Route path='/create-account'>
           <CreateAccountPage />
         </Route>
+        <ProtectedRoute isAuthed={false} isLoading={true  } path='edit-profile'>
+          <div>Coming soon!</div>
+        </ProtectedRoute>
       </Switch>
     </Router>
   );
