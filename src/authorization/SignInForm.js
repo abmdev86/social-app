@@ -51,7 +51,7 @@ export const SignInForm = () => {
 
   return (
     <Form>
-      <Header>My Reservations App</Header>
+      <Header>System Butler</Header>
       {errorMessage
         ? <ErrorMessage style={{
           marginBottom: '16px',

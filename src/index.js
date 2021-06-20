@@ -9,7 +9,7 @@ import reportWebVitals from './reportWebVitals';
 
 
 var firebaseConfig = {
-  apiKey: "AIzaSyCYhWFDUkhRIRTgWxO2KwRbbpPBXWK2bXI",
+  apiKey: "",
   authDomain: "socialgamer-ca109.firebaseapp.com",
   databaseURL: "https://socialgamer-ca109.firebaseio.com",
   projectId: "socialgamer-ca109",
